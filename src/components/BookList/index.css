@@ -1,0 +1,93 @@
+.book-list-details {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  margin: 0px 20px 20px 45px;
+  text-decoration: none;
+  @media screen and (max-width:575px){
+    margin: 0px 0px 20px 10px;
+  }
+}
+.book-list-image {
+  width: 133px;
+  height: 175px;
+  top: 197px;
+  left: 438px;
+  gap: 0px;
+  border-radius: 8px 8px 8px 8px;
+  opacity: 0px;
+  margin-right: 10px;
+}
+.book-main-details {
+  width: 196px;
+  height: 120px;
+  top: 197px;
+  left: 591px;
+  gap: 0px;
+  opacity: 0px;
+}
+.book-list-author {
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  text-align: left;
+  color: #475569;
+}
+.book-list-title {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: left;
+  color: #334155;
+}
+.star {
+  width: 16px;
+  height: 16px;
+  top: 277px;
+  left: 657px;
+  gap: 0px;
+  opacity: 0px;
+  margin: 0px;
+}
+.book-list-average {
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  text-align: left;
+  color: #475569;
+}
+.book-ratings {
+  width: 39px;
+  height: 18px;
+  top: 277px;
+  left: 657px;
+  gap: 0px;
+  opacity: 0px;
+}
+.book-status-title {
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  text-align: left;
+  color: #475569;
+}
+.book-status-state {
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  text-align: left;
+  color: #475569;
+}
+.book-status {
+  font-family: Roboto;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  text-align: left;
+  color: #0284c7;
+}

@@ -1,0 +1,356 @@
+.detail-background-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f5f7fa;
+  min-height: 100vh;
+  min-width: 100%;
+}
+.detail-container {
+  background-color: #ffffff;
+  width: 1140px;
+  min-height: 100vh;
+  top: 153px;
+  left: 150px;
+  gap: 0px;
+  border-radius: 16px 16px 16px 16px;
+  opacity: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 60px 30px 40px 30px;
+  @media screen and (max-width: 1279px) {
+    background-color: transparent;
+    width: 100%;
+  }
+}
+.lower-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  @media screen and (max-width: 1279px) {
+    display: none;
+  }
+}
+.book-detail {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 0px 20px 20px 45px;
+  @media screen and (max-width: 991px) {
+    flex-direction: column;
+    align-items: center;
+    margin: 0px 10px 10px 10px;
+  }
+}
+.book-detail-image {
+  width: 235px;
+  height: 274px;
+  top: 217px;
+  left: 427px;
+  gap: 0px;
+  border-radius: 14.13px 14.13px 14.13px 14.13px;
+  opacity: 0px;
+  margin-right: 20px;
+  @media screen and (max-width: 991px) {
+    width: 235px;
+    height: 274px;
+    top: 80px;
+    left: 62px;
+    gap: 0px;
+    border-radius: 12px 12px 12px 12px;
+    opacity: 0px;
+    margin-right: 0px;
+    margin-top: 20px;
+  }
+}
+.book-main-detail {
+  min-width: 303px;
+  height: 192px;
+  top: 258px;
+  left: 710px;
+  gap: 0px;
+  opacity: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  @media screen and (max-width: 991px) {
+    width: 205px;
+    height: 128px;
+    top: 378px;
+    left: 77px;
+    gap: 0px;
+    opacity: 0px;
+    align-items: center;
+  }
+}
+.book-detail-author {
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 32px;
+  text-align: left;
+  color: #475569;
+  margin: 10px;
+  @media screen and (max-width: 991px) {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    margin: 5px;
+  }
+}
+.book-detail-title {
+  font-family: Roboto;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 48px;
+  text-align: left;
+  color: #334155;
+  margin: 10px;
+  @media screen and (max-width: 991px) {
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    text-align: center;
+    margin: 5px;
+  }
+}
+.detail-star {
+  width: 32px;
+  height: 32px;
+  top: 370px;
+  left: 849px;
+  gap: 0px;
+  opacity: 0px;
+  margin: 0px;
+  @media screen and (max-width: 991px) {
+    width: 24px;
+    height: 24px;
+    top: 450px;
+    left: 198px;
+    gap: 0px;
+    opacity: 0px;
+  }
+}
+.average {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.book-detail-average {
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 32px;
+  text-align: left;
+  color: #475569;
+  margin: 10px;
+  @media screen and (max-width: 991px) {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    margin: 5px;
+  }
+}
+.book-ratings {
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+  text-align: left;
+  margin: 10px;
+  @media screen and (max-width: 991px) {
+    width: 24px;
+    height: 24px;
+    top: 450px;
+    left: 226px;
+    gap: 0px;
+    opacity: 0px;
+    margin: 5px;
+  }
+}
+.book-status-detail {
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 32px;
+  text-align: left;
+  color: #475569;
+  margin: 10px;
+  @media screen and (max-width: 991px) {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    margin: 5px;
+  }
+}
+.book-current-status {
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 32px;
+  text-align: left;
+  color: #0284c7;
+  margin: 10px;
+  @media screen and (max-width: 991px) {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    margin: 5px;
+  }
+}
+.line {
+  width: 1012px;
+  height: 0px;
+  top: 523px;
+  left: 214px;
+  gap: 0px;
+  opacity: 0px;
+  border: 1px solid #94a3b8;
+  @media screen and (max-width: 991px) {
+    margin-top: 20px;
+    width: 312px;
+    height: 0px;
+    top: 530px;
+    left: 24px;
+    gap: 0px;
+    border: 0.5px solid #94a3b8;
+    opacity: 0px;
+  }
+}
+.about-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 10px 20px 10px 50px;
+}
+.about {
+  font-family: Roboto;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+  text-align: left;
+  color: #334155;
+  @media screen and (max-width: 991px) {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+  }
+}
+.about-para {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+  color: #475569;
+  @media screen and (max-width: 991px) {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+  }
+}
+.logos-books {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-end;
+  margin-top: 40px;
+}
+.icons {
+  width: 18px;
+  height: 21px;
+  top: 899px;
+  left: 647px;
+  gap: 0px;
+  opacity: 0px;
+  margin-right: 15px;
+}
+.contact-us {
+  font-family: HK Grotesk;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: center;
+  color: #3d3c3c;
+}
+.failure-view-detail-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.failure-view-detail {
+  width: 469px;
+  height: 230px;
+  top: 366px;
+  left: 689px;
+  gap: 0px;
+  opacity: 0px;
+  margin-top: 100px;
+  @media screen and (max-width: 767px) {
+    width: 238px;
+    height: 117.16px;
+    top: 306px;
+    left: 61px;
+    gap: 0px;
+    opacity: 0px;
+  }
+}
+.failure-para-detail {
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 48px;
+  text-align: left;
+  color: #475569;
+  @media screen and (max-width: 767px) {
+    width: 231px;
+    height: 16px;
+    top: 484px;
+    left: 64px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Roboto;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    color: #475569;
+  }
+}
+.try-again-button {
+  width: Hug (73px) px;
+  height: Hug (32px) px;
+  padding: 8px 16px 8px 16px;
+  gap: 8px;
+  border-radius: 4px 4px 4px 4px;
+  opacity: 0px;
+  background-color: #0284c7;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  @media screen and (max-width: 767px) {
+    width: Hug (87px) px;
+    height: Hug (32px) px;
+    padding: 8px 16px 8px 16px;
+    gap: 8px;
+    border-radius: 4px 4px 4px 4px;
+    opacity: 0px;
+  }
+}

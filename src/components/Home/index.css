@@ -1,0 +1,223 @@
+.main-container {
+  min-height: 100vh;
+  min-width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #f5f7fa;
+  padding: 40px 40px 40px 80px;
+  @media screen and (max-width: 767px) {
+    padding: 0px;
+  }
+}
+.home-heading {
+  font-family: Inter;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 64px;
+  text-align: left;
+  color: #1e293b;
+  @media screen and (max-width: 767px) {
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 32px;
+    padding-left: 10px;
+  }
+}
+.home-description {
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 32px;
+  text-align: left;
+  color: #475569;
+  margin-top: 0px;
+  @media screen and (max-width: 767px) {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: left;
+    padding-left: 10px;
+  }
+}
+.loader-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  min-width: 100%;
+}
+.slider-container {
+  @media screen and (min-width: 768px) {
+    width: 100%;
+    min-height: 424px;
+    max-height: 500px;
+    top: 309px;
+    left: 100px;
+    gap: 0px;
+    opacity: 0px;
+    background-color: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0px 0px 1px 0px #28293d14;
+    padding: 50px;
+  }
+  @media screen and (max-width: 767px) {
+    width: 100%;
+    min-height: 213px;
+    max-height: 300px;
+    top: 284px;
+    gap: 0px;
+    opacity: 0px;
+    background-color: #ffffff;
+    padding: 10px 30px 10px 30px;
+  }
+}
+.slick-prev:before,
+.slick-next:before {
+  color: #98989859;
+}
+.find-book-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.rated {
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 32px;
+  text-align: center;
+  color: #1e293b;
+  @media screen and (max-width: 767px) {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+  }
+}
+.find-book {
+  width: Hug (104px) px;
+  height: Hug (36px) px;
+  padding: 10px 20px 10px 20px;
+  gap: 8px;
+  border-radius: 4px 4px 4px 4px;
+  opacity: 0px;
+  background-color: #0284c7;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  @media screen and (max-width: 767px) {
+    display: none;
+  }
+}
+.find-book-mobile {
+  height: Hug (36px) px;
+  padding: 10px 10px 10px 10px;
+  gap: 8px;
+  border-radius: 4px 4px 4px 4px;
+  opacity: 0px;
+  margin-left: 10px;
+  margin-bottom: 20px;
+  background-color: #0284c7;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  @media screen and (min-width: 768px) {
+    display: none;
+  }
+}
+.logos {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+.icons {
+  width: 18px;
+  height: 21px;
+  top: 899px;
+  left: 647px;
+  gap: 0px;
+  opacity: 0px;
+  margin-right: 15px;
+}
+.contact-us {
+  font-family: HK Grotesk;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: center;
+  color: #3d3c3c;
+}
+.failure-view-home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.failure-view-home {
+  width: 347px;
+  height: 170px;
+  top: 419px;
+  left: 547px;
+  gap: 0px;
+  opacity: 0px;
+  @media screen and (max-width: 767px) {
+    width: 243.78px;
+    height: 120px;
+    top: 340px;
+    left: 58.11px;
+    gap: 0px;
+    opacity: 0px;
+  }
+}
+.failure-para-home {
+  width: 313px;
+  height: 24px;
+  top: 613px;
+  left: 564px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  color: #475569;
+  @media screen and (max-width: 767px) {
+    width: 231px;
+    height: 16px;
+    top: 484px;
+    left: 64px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Roboto;
+    font-size: 12px;
+    line-height: 16px;
+    text-align: center;
+    color: #475569;
+  }
+}
+.try-again-button {
+  width: Hug (73px) px;
+  height: Hug (32px) px;
+  padding: 8px 16px 8px 16px;
+  gap: 8px;
+  border-radius: 4px 4px 4px 4px;
+  opacity: 0px;
+  background-color: #0284c7;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  @media screen and (max-width: 767px) {
+    width: Hug (87px) px;
+    height: Hug (32px) px;
+    padding: 8px 16px 8px 16px;
+    gap: 8px;
+    border-radius: 4px 4px 4px 4px;
+    opacity: 0px;
+  }
+}
