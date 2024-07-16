@@ -13,7 +13,6 @@
   left: 171px;
   gap: 0px;
   border-radius: 4px 0px 0px 0px;
-  opacity: 0px;
   margin-bottom: 10px;
   @media screen and (min-width: 0px) and (max-width: 575px) {
     width: 65px;
@@ -22,7 +21,6 @@
     left: 28px;
     gap: 0px;
     border-radius: 2px 0px 0px 0px;
-    opacity: 0px;
   }
   @media screen and (min-width: 576px) and (max-width: 767px) {
     width: 100px;
@@ -31,7 +29,6 @@
     left: 28px;
     gap: 0px;
     border-radius: 2px 0px 0px 0px;
-    opacity: 0px;
   }
   @media screen and (min-width: 768px) and (max-width: 991px) {
     width: 125px;
@@ -40,7 +37,6 @@
     left: 28px;
     gap: 0px;
     border-radius: 2px 0px 0px 0px;
-    opacity: 0px;
   }
   @media screen and (min-width: 992px) and (max-width: 1279px) {
     width: 180px;
@@ -49,7 +45,6 @@
     left: 28px;
     gap: 0px;
     border-radius: 2px 0px 0px 0px;
-    opacity: 0px;
   }
 }
 .title {

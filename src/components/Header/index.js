@@ -34,28 +34,28 @@ const Header = props => {
 
   return (
     <div>
-      <nav className='nav-container'>
-        <Link to='/' style={{textDecoration: 'none'}}>
+      <nav className="nav-container">
+        <Link to="/" style={{textDecoration: 'none'}}>
           <img
-            src='https://res.cloudinary.com/dmp4z05gw/image/upload/v1720529528/Group_7731_Logo_e5vjkk.png'
-            alt='website logo'
-            className='header-website-logo'
+            src="https://res.cloudinary.com/dmp4z05gw/image/upload/v1720529528/Group_7731_Logo_e5vjkk.png"
+            alt="website logo"
+            className="header-website-logo"
             onClick={onColor}
           />
         </Link>
-        <button type='button' className='hamburger-button'>
+        <button type="button" className="hamburger-button">
           <img
-            src='https://res.cloudinary.com/dmp4z05gw/image/upload/v1720625153/icon_hamburger_wdmfws.png'
-            alt='hamburger'
-            className='hamburger-icon'
+            src="https://res.cloudinary.com/dmp4z05gw/image/upload/v1720625153/icon_hamburger_wdmfws.png"
+            alt="hamburger"
+            className="hamburger-icon"
             onClick={onHam}
           />
         </button>
-        <div className='link-row'>
-          <Link to='/' style={{textDecoration: 'none', marginRight: 20}}>
+        <div className="link-row">
+          <Link to="/" style={{textDecoration: 'none', marginRight: 20}}>
             <p className={tab === 'Home' ? 'links' : 'no-links'}>Home</p>
           </Link>
-          <Link to='/shelf' style={{textDecoration: 'none', marginRight: 20}}>
+          <Link to="/shelf" style={{textDecoration: 'none', marginRight: 20}}>
             <p
               className={tab === 'Bookshelves' ? 'links' : 'no-links'}
               onClick={onColor}
@@ -63,33 +63,33 @@ const Header = props => {
               Bookshelves
             </p>
           </Link>
-          <button className='logout-button' type='button' onClick={onLogout}>
+          <button className="logout-button" type="button" onClick={onLogout}>
             Logout
           </button>
         </div>
       </nav>
       {ham ? (
-        <div className='link-mobiles'>
-          <div className='link-row-mobile'>
-            <Link to='/' style={{textDecoration: 'none', marginRight: 20}}>
-              <p className={tab === 'Home' ? 'links' : 'no-links'} value='Home'>
+        <div className="link-mobiles">
+          <div className="link-row-mobile">
+            <Link to="/" style={{textDecoration: 'none', marginRight: 20}}>
+              <p className={tab === 'Home' ? 'links' : 'no-links'} value="Home">
                 Home
               </p>
             </Link>
-            <Link to='/shelf' style={{textDecoration: 'none', marginRight: 20}}>
+            <Link to="/shelf" style={{textDecoration: 'none', marginRight: 20}}>
               <p
                 className={tab === 'Bookshelves' ? 'links' : 'no-links'}
                 onClick={onColor}
-                value='Bookshelves'
+                value="Bookshelves"
                 style={{marginLeft: 20}}
               >
                 Bookshelves
               </p>
             </Link>
-            <button className='logout-button' type='button' onClick={onLogout}>
+            <button className="logout-button" type="button" onClick={onLogout}>
               Logout
             </button>
-            <button type='button' className='close-button' onClick={onHam}>
+            <button type="button" className="close-button" onClick={onHam}>
               <IoMdCloseCircle size={25} />
             </button>
           </div>

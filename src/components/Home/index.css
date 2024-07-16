@@ -56,7 +56,6 @@
     top: 309px;
     left: 100px;
     gap: 0px;
-    opacity: 0px;
     background-color: #ffffff;
     border-radius: 16px;
     box-shadow: 0px 0px 1px 0px #28293d14;
@@ -68,7 +67,6 @@
     max-height: 300px;
     top: 284px;
     gap: 0px;
-    opacity: 0px;
     background-color: #ffffff;
     padding: 10px 30px 10px 30px;
   }
@@ -104,7 +102,6 @@
   padding: 10px 20px 10px 20px;
   gap: 8px;
   border-radius: 4px 4px 4px 4px;
-  opacity: 0px;
   background-color: #0284c7;
   color: #ffffff;
   border: none;
@@ -118,7 +115,6 @@
   padding: 10px 10px 10px 10px;
   gap: 8px;
   border-radius: 4px 4px 4px 4px;
-  opacity: 0px;
   margin-left: 10px;
   margin-bottom: 20px;
   background-color: #0284c7;
@@ -142,7 +138,6 @@
   top: 899px;
   left: 647px;
   gap: 0px;
-  opacity: 0px;
   margin-right: 15px;
 }
 .contact-us {
@@ -164,14 +159,12 @@
   top: 419px;
   left: 547px;
   gap: 0px;
-  opacity: 0px;
   @media screen and (max-width: 767px) {
     width: 243.78px;
     height: 120px;
     top: 340px;
     left: 58.11px;
     gap: 0px;
-    opacity: 0px;
   }
 }
 .failure-para-home {
@@ -180,7 +173,6 @@
   top: 613px;
   left: 564px;
   gap: 0px;
-  opacity: 0px;
   font-family: Roboto;
   font-size: 16px;
   font-weight: 500;
@@ -193,7 +185,6 @@
     top: 484px;
     left: 64px;
     gap: 0px;
-    opacity: 0px;
     font-family: Roboto;
     font-size: 12px;
     line-height: 16px;
@@ -207,7 +198,6 @@
   padding: 8px 16px 8px 16px;
   gap: 8px;
   border-radius: 4px 4px 4px 4px;
-  opacity: 0px;
   background-color: #0284c7;
   color: #ffffff;
   border: none;
@@ -218,6 +208,5 @@
     padding: 8px 16px 8px 16px;
     gap: 8px;
     border-radius: 4px 4px 4px 4px;
-    opacity: 0px;
   }
 }

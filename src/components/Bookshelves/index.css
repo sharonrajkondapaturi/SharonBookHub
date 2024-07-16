@@ -13,7 +13,6 @@
     top: 12042px;
     left: 4556px;
     gap: 0px;
-    opacity: 0px;
     display: flex;
     flex-direction: column;
     background-color: #f5f7fa;
@@ -53,7 +52,6 @@
     max-width: 256px;
     min-height: 1176px;
     gap: 0px;
-    opacity: 0px;
     background-color: #ffffff;
     padding: 20px;
     margin-right: 30px;
@@ -85,7 +83,6 @@
     top: 137px;
     left: 1026px;
     gap: 0px;
-    opacity: 0px;
     margin-left: 400px;
     display: flex;
   }
@@ -103,7 +100,6 @@
   top: 80px;
   left: 24px;
   gap: 0px;
-  opacity: 0px;
   display: flex;
   margin: 30px 0px 30px 0px;
   @media screen and (min-width: 1279px) {
@@ -116,7 +112,6 @@
   top: 137px;
   left: 1026px;
   gap: 0px;
-  opacity: 0px;
   border: none;
   padding-left: 10px;
   font-family: Roboto;
@@ -130,7 +125,6 @@
     top: 80px;
     left: 24px;
     gap: 0px;
-    opacity: 0px;
   }
 }
 .search-button {
@@ -140,7 +134,6 @@
   left: 1237px;
   gap: 0px;
   border-radius: 0px 3px 3px 0px;
-  opacity: 0px;
   background-color: #edeff1;
   border: none;
   cursor: pointer;
@@ -151,7 +144,6 @@
     left: 235px;
     gap: 0px;
     border-radius: 0px 3px 3px 0px;
-    opacity: 0px;
   }
 }
 .all-books {
@@ -168,7 +160,6 @@
   top: 80px;
   left: 32px;
   gap: 0px;
-  opacity: 0px;
   color: #475569;
   font-family: Roboto;
   font-size: 16px;
@@ -198,7 +189,6 @@
   top: 80px;
   left: 32px;
   gap: 0px;
-  opacity: 0px;
   color: #0284c7;
   font-family: Roboto;
   font-size: 16px;
@@ -212,7 +202,6 @@
     height: Hug (24px) px;
     padding: 4px, 8px, 4px, 8px;
     gap: 4px;
-    opacity: 0px;
     border-radius: 20px;
     background-color: #0284c7;
     font-family: Roboto;
@@ -252,7 +241,6 @@
   top: 310px;
   left: 682px;
   gap: 0px;
-  opacity: 0px;
   margin-top: 80px;
   @media screen and (max-width: 1279px) {
     width: 257px;
@@ -260,7 +248,6 @@
     top: 300px;
     left: 51px;
     gap: 0px;
-    opacity: 0px;
   }
 }
 .no-search-para {
@@ -292,7 +279,6 @@
   top: 899px;
   left: 647px;
   gap: 0px;
-  opacity: 0px;
   margin-right: 15px;
 }
 .contact-us {
@@ -314,7 +300,6 @@
   top: 366px;
   left: 689px;
   gap: 0px;
-  opacity: 0px;
   margin-top: 100px;
   @media screen and (max-width: 767px) {
     width: 238px;
@@ -322,7 +307,6 @@
     top: 306px;
     left: 61px;
     gap: 0px;
-    opacity: 0px;
   }
 }
 .failure-para-shelf {
@@ -338,7 +322,6 @@
     top: 484px;
     left: 64px;
     gap: 0px;
-    opacity: 0px;
     font-family: Roboto;
     font-size: 12px;
     line-height: 16px;
@@ -352,7 +335,6 @@
   padding: 8px 16px 8px 16px;
   gap: 8px;
   border-radius: 4px 4px 4px 4px;
-  opacity: 0px;
   background-color: #0284c7;
   color: #ffffff;
   border: none;
@@ -363,6 +345,5 @@
     padding: 8px 16px 8px 16px;
     gap: 8px;
     border-radius: 4px 4px 4px 4px;
-    opacity: 0px;
   }
 }

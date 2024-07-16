@@ -2,7 +2,6 @@
   width: 780px;
   min-height: 100vh;
   gap: 0px;
-  opacity: 0px;
   @media screen and (min-width: 0px) and (max-width: 991px) {
     border-radius: 100%;
     width: 216px;
@@ -11,12 +10,10 @@
     top: 32px;
     left: 72px;
     gap: 0px;
-    opacity: 0px;
     text-align: center;
   }
   @media screen and (min-width: 768px) and (max-width: 1279px) {
     gap: 0px;
-    opacity: 0px;
   }
 }
 .container {
@@ -43,7 +40,7 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
-    padding-top:40px;
+    padding-top: 40px;
   }
 }
 .login-form {
@@ -52,7 +49,6 @@
   top: 270px;
   left: 852px;
   gap: 0px;
-  opacity: 0px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -67,7 +63,6 @@
     top: 12042px;
     left: 3176px;
     gap: 0px;
-    opacity: 0px;
     background-color: none;
     box-shadow: none;
   }
@@ -78,7 +73,6 @@
   top: 318px;
   left: 1031px;
   gap: 0px;
-  opacity: 0px;
   margin-top: 20px;
   margin-bottom: 20px;
 }
@@ -87,7 +81,6 @@
   height: 56px;
   top: 34px;
   gap: 0px;
-  opacity: 0px;
   border-radius: 10px;
   border-width: 1px;
   padding-left: 10px;
@@ -96,7 +89,6 @@
     height: 56px;
     top: 34px;
     gap: 0px;
-    opacity: 0px;
   }
 }
 .login-label {
@@ -115,7 +107,6 @@
   left: 921px;
   padding: 3px 0px 0px 0px;
   gap: 0px;
-  opacity: 0px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -126,14 +117,12 @@
     left: 24px;
     padding: 3px 0px 0px 0px;
     gap: 0px;
-    opacity: 0px;
   }
 }
 .login-button {
   width: 360px;
   height: 56px;
   gap: 0px;
-  opacity: 0px;
   background-color: #0284c7;
   font-family: Inter;
   font-size: 18px;
@@ -149,7 +138,6 @@
     width: 312px;
     height: 40px;
     gap: 0px;
-    opacity: 0px;
   }
 }
 .error-container {
@@ -169,5 +157,4 @@
   top: 613px;
   left: 921px;
   gap: 0px;
-  opacity: 0px;
 }

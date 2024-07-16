@@ -4,7 +4,7 @@
   list-style-type: none;
   margin: 0px 20px 20px 45px;
   text-decoration: none;
-  @media screen and (max-width:575px){
+  @media screen and (max-width: 575px) {
     margin: 0px 0px 20px 10px;
   }
 }
@@ -15,7 +15,6 @@
   left: 438px;
   gap: 0px;
   border-radius: 8px 8px 8px 8px;
-  opacity: 0px;
   margin-right: 10px;
 }
 .book-main-details {
@@ -24,7 +23,6 @@
   top: 197px;
   left: 591px;
   gap: 0px;
-  opacity: 0px;
 }
 .book-list-author {
   font-family: Roboto;
@@ -48,7 +46,6 @@
   top: 277px;
   left: 657px;
   gap: 0px;
-  opacity: 0px;
   margin: 0px;
 }
 .book-list-average {
@@ -65,7 +62,6 @@
   top: 277px;
   left: 657px;
   gap: 0px;
-  opacity: 0px;
 }
 .book-status-title {
   font-family: Roboto;
